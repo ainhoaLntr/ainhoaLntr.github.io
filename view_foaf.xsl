@@ -25,32 +25,32 @@
                             <xsl:value-of select="foaf:name" />
                         </h2>
                         <p>
-                            <strong>Title:</strong>
+                            <strong>Title: </strong>
                             <xsl:value-of select="foaf:title" />
                         </p>
                         <p>
-                            <strong>Email:</strong>
+                            <strong>Email: </strong>
                             <xsl:value-of select="foaf:email" />
+                        </p>
+                        <p>
+                            <strong>RDF: </strong>
+                            <a
+                                href="{foaf:person/@rdf:about}">
+                                <xsl:value-of select="foaf:person/@rdf:about" />
+                            </a>
+
                         </p>
 
                         <!-- Lien vers la homepage -->
                         <xsl:if test="foaf:homepage">
                             <p>
+                                <strong>My homepage: </strong>
                                 <a href="{foaf:homepage/@rdf:resource}">Homepage</a>
                             </p>
                         </xsl:if>
 
                         <!-- Relations avec d'autres personnes -->
-                        <xsl:if test="foaf:knows">
-                            <h3>Knows</h3>
-              <ul>
-                                <xsl:for-each select="foaf:knows/foaf:Person">
-                                    <li>
-                                        <xsl:value-of select="foaf:name" />
-                                    </li>
-                                </xsl:for-each>
-                            </ul>
-                        </xsl:if>
+                        
                     </div>
                 </xsl:for-each>
             </body>
