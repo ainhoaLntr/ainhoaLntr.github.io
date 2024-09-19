@@ -35,8 +35,8 @@
                         <p>
                             <strong>RDF: </strong>
                             <a
-                                href="{foaf:person/@rdf:about}">
-                                <xsl:value-of select="foaf:person/@rdf:about" />
+                                href="{foaf:Person/@rdf:about}">
+                                <xsl:value-of select="foaf:Person/@rdf:about" />
                             </a>
 
                         </p>
