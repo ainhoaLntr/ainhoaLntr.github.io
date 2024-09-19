@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <foaf:Person>
+        <foaf:name>Aïnhoa LENESTOUR</foaf:name>
+        <foaf:title>Mme</foaf:title>
+        <foaf:givenname>Aïnhoa</foaf:givenname>
+        <foaf:family_name>LENESTOUR</foaf:family_name>
+        <foaf:homepage rdf:resource="http://www.example.com/johndoe"/>
+        <foaf:phone rdf:resource="tel:+1-123-456-7890"/>
+        <foaf:workplaceHomepage rdf:resource="http://www.example.com"/>
+        <foaf:workInfoHomepage rdf:resource="http://www.example.com/ainhoalntr/work"/>
+    </foaf:Person>
+
+</rdf:RDF>
