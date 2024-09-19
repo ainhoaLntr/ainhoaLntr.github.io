@@ -11,7 +11,7 @@
         <foaf:title>Étudiante en M2 Informatique</foaf:title>
         <foaf:email>alenestour@etudiant.univ-lr.fr</foaf:email>
         <foaf:rdf>https://ainhoalntr.github.io/foaf.rdf</foaf:rdf>
-        <foaf:homepage rdf:resource="http://index.html" />
+        <foaf:homepage rdf:resource="https://ainhoalntr.github.io/" />
 
         <foaf:knows>
             <foaf:Person>
