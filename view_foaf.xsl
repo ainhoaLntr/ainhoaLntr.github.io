@@ -36,8 +36,7 @@
                             <strong>RDF: </strong>
                             <a
                                 href="{foaf:Person/@rdf:about}">
-                                <xsl:value-of select="foaf:Person/@rdf:about" />
-                            </a>
+                                <!-- <xsl:value-of select="foaf:Person/@rdf:about" /> --> caca </a>
 
                         </p>
 
