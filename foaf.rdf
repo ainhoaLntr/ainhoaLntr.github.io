@@ -6,10 +6,11 @@
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 
-    <foaf:Person rdf:about="https://ainhoalntr.github.io/foaf.rdf">
+    <foaf:Person>
         <foaf:name>Aïnhoa LENESTOUR</foaf:name>
         <foaf:title>Étudiante en M2 Informatique</foaf:title>
         <foaf:email>alenestour@etudiant.univ-lr.fr</foaf:email>
+        <foaf:rdf>https://ainhoalntr.github.io/foaf.rdf</foaf:rdf>
         <foaf:homepage rdf:resource="http://www.example.com/johndoe" />
 
         <foaf:knows>
@@ -23,13 +24,13 @@
                 <foaf:name>Lucille REY</foaf:name>
                 <foaf:title>Étudiante en M2 Informatique</foaf:title>
                 <foaf:email>lrey@etudiant.univ-lr.fr</foaf:email>
-                <foaf:rdf>https://antoinesueurdev.github.io/foaf.rdf</foaf:rdf>
+                <foaf:rdf>https://lucillerey.github.io/foaf.rdf</foaf:rdf>
             </foaf:Person>
             <foaf:Person>
                 <foaf:name>Maxime MONBEIG</foaf:name>
                 <foaf:title>Étudiant en M2 Informatique</foaf:title>
                 <foaf:email>mmonbeig@etudiant.univ-lr.fr</foaf:email>
-                <foaf:rdf>https://antoinesueurdev.github.io/foaf.rdf</foaf:rdf>
+                <foaf:rdf>https://maxime-monbeig.github.io/foaf.rdf</foaf:rdf>
             </foaf:Person>
         </foaf:knows>
     </foaf:Person>
