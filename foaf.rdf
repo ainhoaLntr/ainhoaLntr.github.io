@@ -8,29 +8,25 @@
 
     <foaf:Person>
         <foaf:name>Aïnhoa LENESTOUR</foaf:name>
-        <foaf:title>Mme</foaf:title>
-        <foaf:givenname>Aïnhoa</foaf:givenname>
-        <foaf:family_name>LENESTOUR</foaf:family_name>
+        <foaf:title>Étudiante en M2 Informatique</foaf:title>
+        <foaf:email>alenestour@etudiant.univ-lr.fr</foaf:email>
         <foaf:homepage rdf:resource="http://www.example.com/johndoe" />
-        <foaf:phone rdf:resource="tel:+1-123-456-7890" />
-        <foaf:workplaceHomepage rdf:resource="http://www.example.com" />
-        <foaf:workInfoHomepage rdf:resource="http://www.example.com/ainhoalntr/work" />
 
         <foaf:knows>
             <foaf:Person rdf:about="https://antoinesueurdev.github.io/foaf.rdf">
                 <foaf:name>Antoine SUEUR</foaf:name>
+                <foaf:title>Étudiant en M2 Informatique</foaf:title>
+                <foaf:email>asueur@etudiant.univ-lr.fr</foaf:email>
             </foaf:Person>
-        </foaf:knows>
-
-        <foaf:knows>
             <foaf:Person rdf:about="https://lucillerey.github.io/foaf.rdf">
                 <foaf:name>Lucille REY</foaf:name>
+                <foaf:title>Étudiante en M2 Informatique</foaf:title>
+                <foaf:email>lrey@etudiant.univ-lr.fr</foaf:email>
             </foaf:Person>
-        </foaf:knows>
-
-        <foaf:knows>
             <foaf:Person rdf:about="https://maxime-monbeig.github.io/foaf.rdf">
                 <foaf:name>Maxime MONBEIG</foaf:name>
+                <foaf:title>Étudiant en M2 Informatique</foaf:title>
+                <foaf:email>mmonbeig@etudiant.univ-lr.fr</foaf:email>
             </foaf:Person>
         </foaf:knows>
     </foaf:Person>

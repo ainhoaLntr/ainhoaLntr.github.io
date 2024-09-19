@@ -30,19 +30,8 @@
                         </p>
                         <p>
                             <strong>Email:</strong>
-                            <xsl:value-of select="foaf:mbox" />
+                            <xsl:value-of select="foaf:email" />
                         </p>
-                        <p>
-                            <strong>Nickname:</strong>
-                            <xsl:value-of select="foaf:nick" />
-                        </p>
-
-                        <!-- Affichage de l'image -->
-                        <xsl:if test="foaf:depiction">
-                            <p>
-                                <img src="{foaf:depiction/@rdf:resource}" alt="Profile image" />
-                            </p>
-                        </xsl:if>
 
                         <!-- Lien vers la homepage -->
                         <xsl:if test="foaf:homepage">
