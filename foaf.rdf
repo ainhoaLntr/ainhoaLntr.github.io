@@ -11,10 +11,28 @@
         <foaf:title>Mme</foaf:title>
         <foaf:givenname>Aïnhoa</foaf:givenname>
         <foaf:family_name>LENESTOUR</foaf:family_name>
-        <foaf:homepage rdf:resource="http://www.example.com/johndoe"/>
-        <foaf:phone rdf:resource="tel:+1-123-456-7890"/>
-        <foaf:workplaceHomepage rdf:resource="http://www.example.com"/>
-        <foaf:workInfoHomepage rdf:resource="http://www.example.com/ainhoalntr/work"/>
+        <foaf:homepage rdf:resource="http://www.example.com/johndoe" />
+        <foaf:phone rdf:resource="tel:+1-123-456-7890" />
+        <foaf:workplaceHomepage rdf:resource="http://www.example.com" />
+        <foaf:workInfoHomepage rdf:resource="http://www.example.com/ainhoalntr/work" />
+
+        <foaf:knows>
+            <foaf:Person rdf:about="https://antoinesueurdev.github.io/foaf.rdf">
+                <foaf:name>Antoine SUEUR</foaf:name>
+            </foaf:Person>
+        </foaf:knows>
+
+        <foaf:knows>
+            <foaf:Person rdf:about="https://lucillerey.github.io/foaf.rdf">
+                <foaf:name>Lucille REY</foaf:name>
+            </foaf:Person>
+        </foaf:knows>
+
+        <foaf:knows>
+            <foaf:Person rdf:about="https://maxime-monbeig.github.io/foaf.rdf">
+                <foaf:name>Maxime MONBEIG</foaf:name>
+            </foaf:Person>
+        </foaf:knows>
     </foaf:Person>
 
 </rdf:RDF>
