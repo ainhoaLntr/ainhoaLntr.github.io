@@ -13,20 +13,23 @@
         <foaf:homepage rdf:resource="http://www.example.com/johndoe" />
 
         <foaf:knows>
-            <foaf:Person rdf:about="https://antoinesueurdev.github.io/foaf.rdf">
+            <foaf:Person>
                 <foaf:name>Antoine SUEUR</foaf:name>
                 <foaf:title>Étudiant en M2 Informatique</foaf:title>
                 <foaf:email>asueur@etudiant.univ-lr.fr</foaf:email>
+                <foaf:rdf>https://antoinesueurdev.github.io/foaf.rdf</foaf:rdf>
             </foaf:Person>
-            <foaf:Person rdf:about="https://lucillerey.github.io/foaf.rdf">
+            <foaf:Person>
                 <foaf:name>Lucille REY</foaf:name>
                 <foaf:title>Étudiante en M2 Informatique</foaf:title>
                 <foaf:email>lrey@etudiant.univ-lr.fr</foaf:email>
+                <foaf:rdf>https://antoinesueurdev.github.io/foaf.rdf</foaf:rdf>
             </foaf:Person>
-            <foaf:Person rdf:about="https://maxime-monbeig.github.io/foaf.rdf">
+            <foaf:Person>
                 <foaf:name>Maxime MONBEIG</foaf:name>
                 <foaf:title>Étudiant en M2 Informatique</foaf:title>
                 <foaf:email>mmonbeig@etudiant.univ-lr.fr</foaf:email>
+                <foaf:rdf>https://antoinesueurdev.github.io/foaf.rdf</foaf:rdf>
             </foaf:Person>
         </foaf:knows>
     </foaf:Person>
